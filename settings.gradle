@@ -1,0 +1,2 @@
+rootProject.name='Wise PDF Reader'
+include ':app'

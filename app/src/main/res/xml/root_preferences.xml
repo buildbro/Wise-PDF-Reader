@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/rotation_option"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            app:icon="@drawable/ic_screen_rotation_grey_24dp"
+            app:key="rotate"
+            app:title="@string/auto_rotate_switch"
+            app:summary="@string/auto_rotate_switch_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/fit_zoom_option"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            app:icon="@drawable/ic_zoom_out_map_black_24dp"
+            app:key="fit"
+            app:title="@string/fit_switch" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/support_credits_option"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:icon="@drawable/ic_help_outline_grey_24dp"
+            app:key="help"
+            app:title="@string/help_pref">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.buildbrothers.com" />
+        </Preference>
+
+        <Preference
+            app:icon="@drawable/ic_info_outline_grey_24dp"
+            app:key="credits"
+            app:title="@string/credits_pref">
+
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
