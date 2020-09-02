@@ -19,7 +19,6 @@ I am using this project to practise/learn the following tools/concepts:
 
 ## Sreenshots
 ![Home](/device-2020-09-02-112652.png?raw=true)
-![Reader](/device-2020-09-02-112952.png?raw=true "Optional Title")
 
 ## Extra
 The core PDF reader in this project is based on <a hreff="https://github.com/barteksc/AndroidPdfViewer">AndroidPdfViewer</a> by barteksc
